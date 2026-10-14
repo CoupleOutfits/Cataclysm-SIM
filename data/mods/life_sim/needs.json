@@ -55,9 +55,23 @@
   {
     "type": "furniture",
     "id": "f_toilet",
-    "copy-from": "f_toilet",
     "name": "toilet",
+    "symbol": "&",
+    "color": "white",
     "description": "A porcelain throne.  Emergency water source, from the tank, and provider of relief.",
-    "examine_action": "lua:LIFE_SIM_TOILET_EXAMINE"
+    "move_cost_mod": 2,
+    "coverage": 30,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "MOUNTABLE", "LIQUIDCONT" ],
+    "examine_action": "lua:LIFE_SIM_TOILET_EXAMINE",
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "porcelain breaking!",
+      "sound_fail": "whunk!",
+      "items": [ { "item": "cu_pipe", "prob": 50 }, { "item": "ceramic_shard", "count": [ 2, 8 ] }, { "item": "wax", "count": 1 } ],
+      "//": "ceramic obstacles have destroy_threshold equal to str_min since more fragile",
+      "ranged": { "reduction": [ 8, 8 ], "destroy_threshold": 8, "block_unaimed_chance": "25%" }
+    }
   }
 ]
