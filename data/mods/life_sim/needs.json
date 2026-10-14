@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ACT_LIFE_SIM_RELIEF",
+    "type": "activity_type",
+    "verb": "relieving yourself",
+    "rooted": true,
+    "no_resume": true,
+    "verbose_tooltip": false,
+    "bubble_size_effect": "idle",
+    "rest_amount": 0.1
+  },
+  {
+    "type": "effect_type",
+    "id": "life_sim_bladder",
+    "name": [ "Need to Pee", "Need to Pee Badly", "Bursting Bladder" ],
+    "desc": [
+      "You should find a toilet soon.",
+      "You really need to find a toilet.  Somewhere.  Anywhere.",
+      "You are about to have an accident!"
+    ],
+    "rating": "bad",
+    "max_intensity": 3,
+    "permanent": true,
+    "show_in_info": true
+  },
+  {
+    "type": "effect_type",
+    "id": "life_sim_soiled",
+    "name": [ "Soiled" ],
+    "desc": [ "You had an accident and your clothes show it.  A wash would help." ],
+    "rating": "bad",
+    "max_duration": "12 h",
+    "show_in_info": true
+  },
+  {
+    "id": "life_sim_morale_bladder",
+    "type": "morale_type",
+    "text": "Full bladder"
+  },
+  {
+    "id": "life_sim_morale_relief",
+    "type": "morale_type",
+    "text": "Sweet relief"
+  },
+  {
+    "id": "life_sim_morale_accident",
+    "type": "morale_type",
+    "text": "Wet myself"
+  },
+  {
+    "id": "life_sim_morale_embarrassed",
+    "type": "morale_type",
+    "text": "Embarrassed"
+  },
+  {
+    "type": "furniture",
+    "id": "f_toilet",
+    "copy-from": "f_toilet",
+    "name": "toilet",
+    "description": "A porcelain throne.  Emergency water source, from the tank, and provider of relief.",
+    "examine_action": "lua:LIFE_SIM_TOILET_EXAMINE"
+  }
+]
