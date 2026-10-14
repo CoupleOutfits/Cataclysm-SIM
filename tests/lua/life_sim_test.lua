@@ -12,8 +12,8 @@
 ---@field bald_growth string?
 ---@field update_hair fun()
 
-local bladder = require("data.mods.life_sim.life.bladder")
-local hair = require("data.mods.life_sim.life.hair")
+local bladder = require("../../data/mods/life_sim/life/bladder")
+local hair = require("../../data/mods/life_sim/life/hair")
 
 ---@type LifeSimTestData
 local data = test_data
