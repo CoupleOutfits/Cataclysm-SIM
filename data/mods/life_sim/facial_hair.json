@@ -2,417 +2,313 @@
   {
     "id": "FACIAL_HAIR_3DAYSTUBBLE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: stubble"
-    },
+    "name": { "str": "Facial hair: stubble" },
     "description": "A few days' worth of stubble.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_JAW_SCRUFF",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: jaw scruff"
-    },
+    "name": { "str": "Facial hair: jaw scruff" },
     "description": "Scruffy, untrimmed growth along the jaw.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_BEARD",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: full beard"
-    },
+    "name": { "str": "Facial hair: full beard" },
     "description": "A full beard.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_WIZENED",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: wizened beard"
-    },
+    "name": { "str": "Facial hair: wizened beard" },
     "description": "A long, wizard-like beard that has never met a razor.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_ANCHOR",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: anchor"
-    },
+    "name": { "str": "Facial hair: anchor" },
     "description": "An anchor-shaped beard.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_CHEVRON",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: chevron"
-    },
+    "name": { "str": "Facial hair: chevron" },
     "description": "A thick, wide mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_CHIN_CURTAIN",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: chin curtain"
-    },
+    "name": { "str": "Facial hair: chin curtain" },
     "description": "A beard along the jawline without a mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_CHIN_STRAP",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: chin strap"
-    },
+    "name": { "str": "Facial hair: chin strap" },
     "description": "A thin strap of beard along the jaw.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_CHIN_STRIP",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: chin strip"
-    },
+    "name": { "str": "Facial hair: chin strip" },
     "description": "A narrow strip of hair below the lip.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_CIRCLE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: circle beard"
-    },
+    "name": { "str": "Facial hair: circle beard" },
     "description": "A goatee joined to a mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_GOATEE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: goatee"
-    },
+    "name": { "str": "Facial hair: goatee" },
     "description": "A tuft of hair on the chin.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_GUNSLINGER",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: gunslinger"
-    },
+    "name": { "str": "Facial hair: gunslinger" },
     "description": "A mustache flowing into sideburns.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_HANDLEBAR",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: handlebar mustache"
-    },
+    "name": { "str": "Facial hair: handlebar mustache" },
     "description": "A mustache with curled, upturned ends.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_HORSESHOE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: horseshoe mustache"
-    },
+    "name": { "str": "Facial hair: horseshoe mustache" },
     "description": "A mustache extending down past the corners of the mouth.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_MUSTACHE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: mustache"
-    },
+    "name": { "str": "Facial hair: mustache" },
     "description": "A plain mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_MUTTONCHOPS",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: muttonchops"
-    },
+    "name": { "str": "Facial hair: muttonchops" },
     "description": "Big sideburns that reach the corners of the mouth.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_NECKBEARD",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: neckbeard"
-    },
+    "name": { "str": "Facial hair: neckbeard" },
     "description": "A beard grown under the jaw and on the neck.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_PENCIL",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: pencil mustache"
-    },
+    "name": { "str": "Facial hair: pencil mustache" },
     "description": "A thin, neatly trimmed mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_ROYALE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: royale"
-    },
+    "name": { "str": "Facial hair: royale" },
     "description": "A chin beard paired with a mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_SHENANDOAH",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: shenandoah"
-    },
+    "name": { "str": "Facial hair: shenandoah" },
     "description": "A chin curtain with a shaved upper lip.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_SHORTBOXED",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: short boxed beard"
-    },
+    "name": { "str": "Facial hair: short boxed beard" },
     "description": "A short, neatly trimmed full beard.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_SIDEBURNS",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: sideburns"
-    },
+    "name": { "str": "Facial hair: sideburns" },
     "description": "Long sideburns.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_SOUL_PATCH",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: soul patch"
-    },
+    "name": { "str": "Facial hair: soul patch" },
     "description": "A small patch of hair under the lower lip.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_TOOTHBRUSH",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: toothbrush mustache"
-    },
+    "name": { "str": "Facial hair: toothbrush mustache" },
     "description": "A short, square mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_VANDYKE",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: van dyke"
-    },
+    "name": { "str": "Facial hair: van dyke" },
     "description": "A goatee with a detached mustache.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   },
   {
     "id": "FACIAL_HAIR_WALRUS",
     "type": "mutation",
-    "name": {
-      "str": "Facial hair: walrus mustache"
-    },
+    "name": { "str": "Facial hair: walrus mustache" },
     "description": "A thick, bushy mustache that covers the mouth.",
     "points": 0,
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "types": [
-      "facial_hair"
-    ]
+    "types": [ "facial_hair" ]
   }
 ]
