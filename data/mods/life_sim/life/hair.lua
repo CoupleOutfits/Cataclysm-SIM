@@ -102,7 +102,8 @@ end
 local function update_track(who, track)
   local now = store.now()
   local current = current_trait(who, track.type_name)
-  local since = store.get_num(who, track.key .. "_since", now)
+  -- Clamp so a timestamp from the future (e.g. after the calendar was rewound) can't stall growth.
+  local since = math.min(store.get_num(who, track.key .. "_since", now), now)
 
   -- A new look (picked in a menu, mutated, etc.) restarts growth.
   if store.get_str(who, track.key .. "_look") ~= current then since = now end
